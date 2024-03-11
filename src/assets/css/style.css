@@ -1,0 +1,331 @@
+/* 
+    Template Name: Furniture Slider
+    Template URI: https://furniture-slider.netlify.app/
+    Author: Alissio
+    File Description: Main Css file of the template
+	Version: 1.0.0
+*/
+
+
+/*-----------------------------------------------------------------------------------
+
+    CSS INDEX
+    ===================
+
+    1. - FONTS
+
+    2. - GENERAL
+
+    3. - CUSTOMIZE THE CAROUSEL
+    
+    4. - RESPONSIVE
+
+-----------------------------------------------------------------------------------*/
+
+
+
+/* 1. - FONTS
+-------------------------------------------------- */
+
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaLight/NexaLight.eot');
+    src: url('../fonts/NexaLight/NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaLight/NexaLight.woff2') format('woff2'),
+        url('../fonts/NexaLight/NexaLight.woff') format('woff'),
+        url('../fonts/NexaLight/NexaLight.ttf') format('truetype'),
+        url('../fonts/NexaLight/NexaLight.svg#NexaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Nexa';
+    src: url('../fonts/NexaBold/NexaBold.eot');
+    src: url('../fonts/NexaBold/NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/NexaBold/NexaBold.woff2') format('woff2'),
+        url('../fonts/NexaBold/NexaBold.woff') format('woff'),
+        url('../fonts/NexaBold/NexaBold.ttf') format('truetype'),
+        url('../fonts/NexaBold/NexaBold.svg#NexaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* 2. - GENERAL
+-------------------------------------------------- */
+body {
+    font-family: 'Nexa';
+    font-weight: 300;
+    font-style: normal;
+    background-color: #194953;
+    color: #fff;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+body:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    background-color: #da6600;
+}
+
+
+
+/* 3. - CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+/* Carousel control position */
+.carousel-control-next,
+.carousel-control-prev {
+    width: auto;
+    -webkit-writing-mode: vertical-rl;
+        -ms-writing-mode: tb-rl;
+            writing-mode: vertical-rl;
+    text-orientation: upright;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .875rem;
+    letter-spacing: .5rem;
+    opacity: 1;
+}
+.carousel-control-prev {
+    left: 3rem;
+}
+.carousel-control-next {
+    right: 3rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    padding: 0;
+    bottom: 0;
+    top: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    z-index: 10;
+    position: relative;
+    left: 0;
+    right: 0;
+    min-height: 100vh;
+}
+/* Declare heights because of positioning of img element */
+.carousel-inner {
+    overflow-y: auto;
+}
+.carousel-inner,
+.carousel-item {
+    height: 100%;
+}
+/* Carousel fade in and fade out effects */
+.carousel-img {
+    -webkit-transform: translate3d(100px,0,0);
+            transform: translate3d(100px,0,0);
+    -webkit-transition: opacity 3s cubic-bezier(.175,.885,.32,1.275), -webkit-transform .8s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 3s cubic-bezier(.175,.885,.32,1.275), -webkit-transform .8s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: opacity 3s cubic-bezier(.175,.885,.32,1.275), transform .8s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 3s cubic-bezier(.175,.885,.32,1.275), transform .8s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 3s cubic-bezier(.175,.885,.32,1.275), transform .8s cubic-bezier(.175,.885,.32,1.275), -webkit-transform .8s cubic-bezier(.175,.885,.32,1.275);
+}
+.carousel-fade .carousel-item {
+    opacity: 0;
+    display: block;
+}
+.carousel-item-next.carousel-item-start .carousel-img,
+.carousel-item-prev.carousel-item-end .carousel-img,
+.carousel-item.active .carousel-img {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+.active.carousel-item-start .carousel-img,
+.active.carousel-item-end .carousel-img {
+    opacity: 0;
+    -webkit-transform: translate3d(100px,0,0);
+            transform: translate3d(100px,0,0);
+}
+
+.carousel-desc-ttl {
+    -webkit-transform: translate3d(200px,0,0);
+            transform: translate3d(200px,0,0);
+    -webkit-transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.carousel-desc-txt {
+    -webkit-transform: translate3d(300px,0,0);
+            transform: translate3d(300px,0,0);
+    -webkit-transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+    -o-transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275);
+    transition: opacity 1s cubic-bezier(.175,.885,.32,1.275), transform 1s cubic-bezier(.175,.885,.32,1.275), -webkit-transform 1s cubic-bezier(.175,.885,.32,1.275);
+}
+
+.carousel-item-next.carousel-item-start .carousel-desc-ttl,
+.carousel-item-prev.carousel-item-end .carousel-desc-ttl,
+.carousel-item.active .carousel-desc-ttl {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+.active.carousel-item-start .carousel-desc-ttl,
+.active.carousel-item-end .carousel-desc-ttl {
+    opacity: 0;
+    -webkit-transform: translate3d(100px,0,0);
+            transform: translate3d(100px,0,0);
+}
+
+.carousel-item-next.carousel-item-start .carousel-desc-txt,
+.carousel-item-prev.carousel-item-end .carousel-desc-txt,
+.carousel-item.active .carousel-desc-txt {
+    opacity: 1;
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+.active.carousel-item-start .carousel-desc-txt,
+.active.carousel-item-end .carousel-desc-txt {
+    opacity: 0;
+    -webkit-transform: translate3d(100px,0,0);
+            transform: translate3d(100px,0,0);
+}
+
+/* Carousel custom class */
+.carousel-caption > .row {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.carousel-caption > .row > div {
+    height: 100%;
+}
+.carousel-media {
+    position: relative;
+    height: 100%;
+}
+.carousel-img {
+    max-width: 100%;
+}
+.carousel-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 100%;
+}
+.carousel-desc-ttl {
+    font-size: 4.5rem;
+    line-height: normal;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    letter-spacing: .2rem;
+}
+.carousel-desc-txt {
+    font-size: 1.375rem;
+    margin-bottom: 0;
+}
+.carousel-indicators {
+    margin-bottom: 1.5rem;
+}
+.carousel-indicators [data-bs-target] {
+    width: .75rem;
+    height: .75rem;
+    border-radius: 50%;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+.carousel-indicators [data-bs-target].active {
+    background-color: #fff;
+    border: none;
+    width: 1rem;
+    height: 1rem;
+}
+
+
+
+/* 4. - RESPONSIVE
+-------------------------------------------------- */
+
+@media only screen and (max-width: 1199px) {
+    .carousel-control-prev {
+        left: 1.5rem;
+    }
+    .carousel-control-next {
+        right: 1.5rem;
+    }
+    .carousel-content {
+        padding-left: 2rem;
+    }
+    .carousel-media {
+        padding-right: 2rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel-desc-ttl {
+        font-size: 3rem;
+    }
+    .carousel-desc-txt {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .carousel-desc-ttl {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    .carousel-desc-txt {
+        font-size: 1.1rem;
+    }
+    .carousel-caption {
+        padding: 3rem 1rem;
+    }
+    .carousel-caption .row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
+    }
+    .carousel-content {
+        margin-top: 2rem;
+        padding: 0 2rem;
+    }
+    .carousel-media {
+        padding: 0 2rem;
+    }
+}
