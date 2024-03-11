@@ -1,11 +1,11 @@
-<div class="user-html user-html__with-lazy-load"><a href="https://furniture-slider.netlify.app/documentation/" rel="nofollow" target="_blank"><img src="https://furniture-slider.netlify.app/src/assets/img/doc.png" alt="Furnoture Slider - Online Documentation"></a>
-<h3 id="item-description__furniture-slider-responsive-bootstrap-v5-slider-template">Furniture Slider – Responsive Bootstrap v5 Slider Template</h3>
-<p><strong>Furniture Slider</strong> is an all-in-one package that includes unique style and functionality. It provides you customizable sliders to help create dynamic and engaging web pages. <br><br>With <strong>Furniture Slider</strong> you can quickly and easily add stunning slider to your website. It is easy to use, fully responsive and works seamlessly across all devices.<br><br>Choose from a variety of transition effects, control animations and customize everything from colors to fonts to create the perfect slider for your website.<br><br>Get <strong>Furniture Slider</strong> and take your website to the next level.</p>
+<div class="user-html user-html__with-lazy-load"><a href="https://ellazo.netlify.app/documentation/" rel="nofollow" target="_blank"><img src="https://ellazo.netlify.app/src/assets/img/doc.png" alt="Ellazo Furniture Slider - Online Documentation"></a>
+<h3 id="item-description__ellazo-furniture-slider-responsive-bootstrap-v5-slider-template">Ellazo – Furniture Responsive Bootstrap v5 Slider Template</h3>
+<p><strong>Ellazo</strong> Furniture Slider is an all-in-one package that includes unique style and functionality. It provides you customizable sliders to help create dynamic and engaging web pages. <br><br>With <strong>Ellazo</strong> Furniture Slider you can quickly and easily add stunning slider to your website. It is easy to use, fully responsive and works seamlessly across all devices.<br><br>Choose from a variety of transition effects, control animations and customize everything from colors to fonts to create the perfect slider for your website.<br><br>Get <strong>Ellazo</strong> Furniture Slider and take your website to the next level.</p>
 
 
-<img src="https://furniture-slider.netlify.app/src/assets/img/rate.png" alt="rate-us">
+<img src="https://ellazo.netlify.app/src/assets/img/rate.png" alt="rate-us">
 
-<h3 id="item-description__why-choose-furniture-slider">Why choose Furniture Slider?</h3>
+<h3 id="item-description__why-choose-ellazo-furniture-slider">Why choose Ellazo Furniture Slider?</h3>
 <ul>
 <li>
 <strong>Completely Responsive Design</strong>
@@ -67,7 +67,7 @@
 </li>
 </ul>
 <h3 id="item-description__documentation">Documentation</h3>
-<a href="https://furniture-slider.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a>
+<a href="https://ellazo.netlify.app/documentation/" rel="nofollow" target="_blank">Check the docs here</a>
 <h3 id="item-description__customization-services">Important Note:</h3>
 <ul>
 <li>All images are just used for Preview Purpose Only. They are not part of the HTML templates and are not included in the final purchase files.</li>
@@ -76,7 +76,7 @@
 <li>Included a documentation file for full instruction.</li>
 </ul>
 <h3 id="item-description__sources-and-credits">Sources and Credits</h3>
-<p><strong>Please note: the images that can be seen in the preview will not be included in the download package. These are for preview purposes only.</strong> Full credits list you can see on this page <a href="https://furniture-slider.netlify.app/documentation/index.html#credits" target="_blank">link</a></p>
+<p><strong>Please note: the images that can be seen in the preview will not be included in the download package. These are for preview purposes only.</strong> Full credits list you can see on this page <a href="https://ellazo.netlify.app/documentation/index.html#credits" target="_blank">link</a></p>
 <h3 id="item-description__thank-you">Thank you:</h3><p>Thank you so much for using this template. Your comments and ratings would be much appreciated. Please don’t forget RATE for us.</p><p>If you purchase this template, you will get support. We will update this template time by time and we want to hear your wishes for the future updates or for complete new templates.
 </p><p>We are grateful to you.
 </p><p><strong>– Peachline –</strong></p>
@@ -86,11 +86,11 @@
 <pre>- Initial release</pre>
 <p>If you love our product, Don’t forget to rate it 5 stars</p>
 <p>
-<img src="https://furniture-slider.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://furniture-slider.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://furniture-slider.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://furniture-slider.netlify.app/src/assets/img/star.png" alt="star">
-<img src="https://furniture-slider.netlify.app/src/assets/img/star.png" alt="star"> 
+<img src="https://ellazo.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://ellazo.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://ellazo.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://ellazo.netlify.app/src/assets/img/star.png" alt="star">
+<img src="https://ellazo.netlify.app/src/assets/img/star.png" alt="star"> 
 and let us know your feedback for a better update. Thank you
-<img src="https://furniture-slider.netlify.app/src/assets/img/smile.png" alt="happy">
+<img src="https://ellazo.netlify.app/src/assets/img/smile.png" alt="happy">
 </div>
