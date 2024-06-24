@@ -244,7 +244,7 @@ body:after {
     height: 100%;
 }
 .carousel-desc-ttl {
-    font-size: 4.5rem;
+    font-size: 3rem;
     line-height: normal;
     text-transform: uppercase;
     font-weight: 700;
@@ -297,7 +297,7 @@ body:after {
 
 @media only screen and (max-width: 992px) {
     .carousel-desc-ttl {
-        font-size: 3rem;
+        font-size: 1.7rem;
     }
     .carousel-desc-txt {
         font-size: 1.2rem;
@@ -306,7 +306,7 @@ body:after {
 
 @media only screen and (max-width: 768px){
     .carousel-desc-ttl {
-        font-size: 2.5rem;
+        font-size: 1.5rem;
         margin-bottom: 1rem;
     }
     .carousel-desc-txt {
